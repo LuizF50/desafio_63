@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viagem Intergaláctica - Redistribuição de Combustível</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Viagem Intergaláctica 🚀</h1>
+        <h2>Redistribuição de Combustível</h2>
+
+        <div class="input-section">
+            <label for="fuelInput">Insira as quantidades de combustível (separadas por vírgula):</label>
+            <input type="text" id="fuelInput" placeholder="Ex: 12, 5, 8, 0, 6">
+            <button id="calculateBtn" class="btn glitch">
+                <span>Redistribuir Combustível</span>
+            </button>
+        </div>
+
+        <div class="result-section">
+            <h3>Resultado:</h3>
+            <div class="result-container">
+                <div class="original">
+                    <h4>Original:</h4>
+                    <div id="originalFuel"></div>
+                </div>
+                <div class="redistributed">
+                    <h4>Redistribuído:</h4>
+                    <div id="redistributedFuel"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="robot-message">
+            <p id="robotMessage">R2-C0D3 aguardando instruções, capitão!</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
